@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700;900&amp;family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link rel="icon" href="favicon.png?v=2" type="image/png">
+<script src="tailwind.config.js"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+  @media (max-width: 768px) {
+    div#mobile-menu {
+      position: relative;
+      top: 120px;
+      height: 100vh;
+    }
+     .pt-32 {
+    padding-top: 8rem !important;
+  }
+  }
+</style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-container selection:text-white overflow-x-hidden w-full">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full flex justify-between items-center px-6 md:px-8 py-4 md:py-6 max-w-none bg-[#131313]/90 backdrop-blur-xl z-50 transition-all duration-300">
+<a href="index.html" class="block text-base sm:text-lg md:text-xl font-black tracking-[0.1em] sm:tracking-[0.2em] text-[#e5e2e1] uppercase z-50 relative truncate">SANJEEV_KUMAR</a>
+<div class="hidden md:flex items-center gap-10 font-['Epilogue'] font-bold tracking-tighter uppercase">
+<a class="text-[#e5e2e1] hover:text-[#ffb4a8] transition-colors duration-300" href="index.html">WORK</a>
+<a class="text-[#e5e2e1] hover:text-[#ffb4a8] transition-colors duration-300" href="about.html">ABOUT</a>
+<a class="text-[#ffb4a8] border-b-2 border-[#ff5540] pb-1" href="contact.us.html">CONTACT</a>
+</div>
+<div class="flex items-center gap-4 z-50 relative">
+    <a href="tel:8219436154" class="hidden sm:inline-block text-center bg-primary-container text-white px-6 py-2.5 font-['Epilogue'] font-bold tracking-tighter uppercase sharp-edge hover:bg-[#ff5540] scale-95 active:scale-90 transition-all duration-200">
+        HIRE ME
+    </a>
+    <button id="mobile-menu-btn" class="md:hidden text-[#e5e2e1] flex items-center justify-center p-2">
+        <span class="material-symbols-outlined text-3xl">menu</span>
+    </button>
+</div>
+</nav>
+
+<!-- Mobile Menu Overlay -->
+<div id="mobile-menu" class="fixed inset-0 bg-[#131313] z-40 hidden flex-col items-center justify-center gap-8 px-8 opacity-0 transition-opacity duration-300 pointer-events-none filter backdrop-blur-lg bg-opacity-95">
+    <div class="flex flex-col items-center gap-8 font-['Epilogue'] text-3xl font-black tracking-tighter uppercase w-full">
+        <a class="text-[#e5e2e1] hover:text-[#ffb4a8] transition-colors mobile-link" href="index.html">WORK</a>
+        <a class="text-[#e5e2e1] hover:text-[#ffb4a8] transition-colors mobile-link" href="about.html">ABOUT</a>
+        <a class="text-[#ffb4a8] mobile-link" href="contact.us.html">CONTACT</a>
+        <a href="tel:8219436154" class="inline-block text-center bg-primary-container text-white w-full max-w-xs py-4 font-bold tracking-tighter uppercase sharp-edge hover:bg-[#ff5540] transition-all mobile-link mt-8">
+            HIRE ME
+        </a>
+    </div>
+</div>
+<main class="pt-32 pb-24 px-8 min-h-screen">
+<div class="max-w-[1400px] mx-auto">
+<!-- Header Section -->
+<div class="mb-24 flex flex-col items-start">
+<div class="flex items-center gap-4 mb-4">
+<span class="w-3 h-3 bg-primary-container"></span>
+<span class="font-label text-xs font-bold tracking-[0.3em] uppercase opacity-60">AVAILABLE FOR NEW PROJECTS</span>
+</div>
+<h1 class="font-headline text-6xl md:text-9xl font-black tracking-[-0.04em] uppercase leading-[0.9] text-white">
+                    INITIATE<br/>
+<span class="text-primary">CONTACT</span>
+</h1>
+</div>
+<!-- Content Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24">
+<!-- Left Column: Identity & Details -->
+<div class="lg:col-span-4 flex flex-col gap-16">
+<div class="space-y-8">
+<div>
+<p class="font-label text-[10px] font-bold tracking-[0.2em] text-primary uppercase mb-4">EMAIL INQUIRIES</p>
+<a class="font-headline text-2xl md:text-3xl font-bold tracking-tight text-white hover:text-kinetic-red transition-colors duration-300" href="mailto:SJEEV06CH@GMAIL.COM">SJEEV06CH@GMAIL.COM</a>
+</div>
+<div>
+<p class="font-label text-[10px] font-bold tracking-[0.2em] text-primary uppercase mb-4">PHONE</p>
+<p class="font-headline text-2xl md:text-3xl font-bold tracking-tight text-white">+91 8219436514</p>
+</div>
+<div>
+<p class="font-label text-[10px] font-bold tracking-[0.2em] text-primary uppercase mb-4">STUDIO LOCATION</p>
+<p class="font-headline text-2xl md:text-3xl font-bold tracking-tight text-white">CHANDIGARH,<br/>INDIA</p>
+</div>
+</div>
+<div class="pt-8 border-t border-outline-variant/20">
+<p class="font-label text-[10px] font-bold tracking-[0.2em] text-primary uppercase mb-8">DIGITAL FOOTPRINT</p>
+<ul class="space-y-4">
+<li><a class="group flex items-center gap-4 font-headline text-xl font-bold text-on-surface hover:text-white transition-all" href="#">
+<span class="w-0 group-hover:w-8 h-[2px] bg-kinetic-red transition-all duration-300"></span> INSTAGRAM
+                            </a></li>
+<li><a class="group flex items-center gap-4 font-headline text-xl font-bold text-on-surface hover:text-white transition-all" href="#">
+<span class="w-0 group-hover:w-8 h-[2px] bg-kinetic-red transition-all duration-300"></span> DRIBBBLE
+                            </a></li>
+<li><a class="group flex items-center gap-4 font-headline text-xl font-bold text-on-surface hover:text-white transition-all" href="#">
+<span class="w-0 group-hover:w-8 h-[2px] bg-kinetic-red transition-all duration-300"></span> LINKEDIN
+                            </a></li>
+</ul>
+</div>
+</div>
+<!-- Right Column: High-End Form -->
+<div class="lg:col-span-8 bg-surface-container-low p-8 md:p-12 relative">
+<div class="absolute top-0 right-0 w-32 h-32 bg-surface-container border-b border-l border-outline-variant/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-kinetic-red" data-icon="send">send</span>
+</div>
+<form class="flex flex-col gap-12 mt-12">
+<div class="relative group">
+<label class="block font-label text-[10px] font-bold tracking-[0.2em] uppercase text-on-surface-variant mb-4 transition-colors group-focus-within:text-kinetic-red">01. FULL NAME</label>
+<input class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:border-kinetic-red focus:ring-0 text-white font-headline text-2xl p-0 pb-4 placeholder:opacity-20 transition-all outline-none" placeholder="Your name" type="text"/>
+</div>
+<div class="relative group">
+<label class="block font-label text-[10px] font-bold tracking-[0.2em] uppercase text-on-surface-variant mb-4 transition-colors group-focus-within:text-kinetic-red">02. EMAIL ADDRESS</label>
+<input class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:border-kinetic-red focus:ring-0 text-white font-headline text-2xl p-0 pb-4 placeholder:opacity-20 transition-all outline-none" placeholder="email@domain.com" type="email"/>
+</div>
+<div class="relative group">
+<label class="block font-label text-[10px] font-bold tracking-[0.2em] uppercase text-on-surface-variant mb-4 transition-colors group-focus-within:text-kinetic-red">03. PROJECT DESCRIPTION</label>
+<textarea class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:border-kinetic-red focus:ring-0 text-white font-headline text-2xl p-0 pb-4 placeholder:opacity-20 transition-all outline-none resize-none" placeholder="Briefly describe your vision" rows="4"></textarea>
+</div>
+<div class="pt-4">
+<button class="group flex items-center gap-6 bg-primary-container text-white px-10 py-6 font-headline font-black text-xl uppercase tracking-tighter hover:bg-white hover:text-black transition-all duration-300" type="submit">
+                                TRANSMIT MESSAGE
+                                <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<!-- Map/Visual Break Section -->
+<section class="mt-32 w-full h-[500px] overflow-hidden grayscale contrast-125 brightness-75 border-ghost relative">
+<img alt="Minimalist architectural details in Chandigarh" class="w-full h-full object-cover" data-alt="Aerial topographic view of a brutalist city grid in high-contrast black and white with red graphic overlays" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlX-82zKZf0Rqv14DhVf9GwaBAIAUxOFTDHu9NpyrT83QG1ogSg3MJGUCjwEvI0xv4i4UhKxVzyVGwe6lYMb6YS06rEN760n8UwargJ7w-MjCkkfegon7S7m5Sqyx_6o3blffR2FFm9pbah57pNCRoqXYJOYYGU5hMAxDn89StkUfVPHuEBLu_3Z1pdNpomKOPg1qKRHbNs32Abx8omYuu5ifJJKsZ22y0UcsSH8wvElvxk_TWALASsfTtX3G1EXoGTaMbucN4bc4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent"></div>
+<div class="absolute bottom-12 left-12">
+<div class="bg-kinetic-red text-white px-6 py-4">
+<p class="font-headline font-black text-2xl tracking-tighter uppercase">CHANDIGARH SECTOR 1</p>
+<p class="font-label text-[10px] font-bold tracking-[0.2em]">30.7333° N, 76.7794° E</p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full px-6 md:px-8 py-12 flex flex-col md:flex-row justify-between items-center gap-6 md:gap-8 bg-[#0e0e0e] border-t border-[#353534]/15 text-center md:text-left">
+<a href="index.html" class="block text-lg font-bold text-[#e5e2e1] font-['Epilogue'] hover:text-[#ffb4a8] transition-colors">SANJEEV_KUMAR</a>
+<!-- <div class="font-['Plus_Jakarta_Sans'] text-xs tracking-widest uppercase text-[#938f8f] max-w-[250px] md:max-w-none">
+        ©2024 THE KINETIC MONOLITH. ALL RIGHTS RESERVED.
+    </div> -->
+<div class="flex flex-wrap justify-center gap-6 font-['Plus_Jakarta_Sans'] text-xs tracking-widest uppercase">
+<a class="text-[#938f8f] hover:text-[#ffb4a8] transition-colors duration-300" href="#">INSTAGRAM</a>
+<a class="text-[#938f8f] hover:text-[#ffb4a8] transition-colors duration-300" href="#">DRIBBBLE</a>
+<a class="text-[#938f8f] hover:text-[#ffb4a8] transition-colors duration-300" href="#">LINKEDIN</a>
+</div>
+</footer>
+<script src="script.js"></script>
+</body></html>
