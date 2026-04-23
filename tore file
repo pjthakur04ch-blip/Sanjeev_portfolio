@@ -1,0 +1,23 @@
+[33mcommit 01fda216e84723ae55929a1ce2cdc802c0db5eac[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: pjthakur04ch-blip <pjthakur04ch@gmail.com>
+Date:   Thu Apr 23 16:10:52 2026 +0530
+
+    delete unwanted files
+
+[33mcommit 1ce045530090e4f89131b3ef8dfefe1cdbad0f7b[m
+Author: pjthakur04ch-blip <pjthakur04ch@gmail.com>
+Date:   Tue Apr 21 17:15:53 2026 +0530
+
+    move the about and contact us in root
+
+[33mcommit 3a581f90625526eac6a9cb13a748505a8aa726a8[m
+Author: pjthakur04ch-blip <pjthakur04ch@gmail.com>
+Date:   Tue Mar 31 20:46:27 2026 +0530
+
+    fixed folder structure for GitHub Pages
+
+[33mcommit ac3526bcbe11f5683923f9ab3d44e2cb39cad4d0[m
+Author: pjthakur04ch-blip <pjthakur04ch@gmail.com>
+Date:   Tue Mar 31 13:46:12 2026 +0530
+
+    first commit

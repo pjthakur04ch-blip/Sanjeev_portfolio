@@ -1,0 +1,70 @@
+$surface: #131313;
+$on-surface: #e5e2e1;
+$primary: #ffb4a8;
+$primary-container: #ff5540;
+$surface-container-high: #2a2a2a;
+
+body {
+  background-color: $surface;
+  color: $on-surface;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.sharp-edge { 
+  border-radius: 0px !important; 
+}
+
+/* SCSS Component Styling */
+.nav-link {
+  color: $on-surface;
+  transition: color 300ms;
+  &:hover {
+    color: $primary;
+  }
+  &.active {
+    color: $primary;
+    border-bottom: 2px solid $primary-container;
+    padding-bottom: 0.25rem;
+  }
+}
+
+.btn-primary {
+  background-color: $primary-container;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  transition: transform 200ms, background-color 200ms;
+  border-radius: 0px;
+  
+  &:hover {
+    background-color: lighten($primary-container, 5%);
+  }
+  
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+/* Image Hover Effects */
+.project-card {
+  overflow: hidden;
+  position: relative;
+  
+  img {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: all 700ms;
+    
+    &:hover {
+      filter: grayscale(0%);
+      opacity: 1;
+      transform: scale(1.05);
+    }
+  }
+}

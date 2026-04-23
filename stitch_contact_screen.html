@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700;900&amp;family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-container": "#488fff",
+              "surface-bright": "#3a3939",
+              "on-secondary-fixed-variant": "#930100",
+              "on-primary-container": "#5c0000",
+              "surface": "#131313",
+              "secondary-fixed-dim": "#ffb4a8",
+              "surface-container-highest": "#353534",
+              "secondary": "#ffb4a8",
+              "on-surface-variant": "#ebbbb4",
+              "inverse-primary": "#c00100",
+              "error-container": "#93000a",
+              "on-error": "#690005",
+              "tertiary-fixed-dim": "#acc7ff",
+              "surface-tint": "#ffb4a8",
+              "surface-container-lowest": "#0e0e0e",
+              "inverse-on-surface": "#313030",
+              "secondary-container": "#970100",
+              "secondary-fixed": "#ffdad4",
+              "surface-dim": "#131313",
+              "on-tertiary": "#002f67",
+              "on-tertiary-container": "#00285b",
+              "tertiary": "#acc7ff",
+              "surface-container-high": "#2a2a2a",
+              "on-primary": "#690100",
+              "on-background": "#e5e2e1",
+              "primary": "#ffb4a8",
+              "on-secondary": "#690100",
+              "inverse-surface": "#e5e2e1",
+              "surface-container": "#201f1f",
+              "on-surface": "#e5e2e1",
+              "surface-variant": "#353534",
+              "on-tertiary-fixed-variant": "#004491",
+              "on-secondary-fixed": "#410000",
+              "tertiary-fixed": "#d7e2ff",
+              "on-primary-fixed": "#410000",
+              "on-secondary-container": "#ff9f90",
+              "background": "#131313",
+              "on-primary-fixed-variant": "#930100",
+              "surface-container-low": "#1c1b1b",
+              "on-error-container": "#ffdad6",
+              "error": "#ffb4ab",
+              "primary-fixed": "#ffdad4",
+              "primary-container": "#ff5540",
+              "primary-fixed-dim": "#ffb4a8",
+              "outline": "#b18780",
+              "outline-variant": "#603e39",
+              "on-tertiary-fixed": "#001a40"
+            },
+            fontFamily: {
+              "headline": ["Epilogue"],
+              "body": ["Plus Jakarta Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+        }
+        .kinetic-red {
+            color: #ff0000;
+        }
+        .bg-kinetic-red {
+            background-color: #ff0000;
+        }
+        .border-ghost {
+            border-color: rgba(96, 62, 57, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-8 py-6 bg-[#131313]/80 backdrop-blur-xl">
+<div class="text-xl font-black tracking-[-0.04em] text-white font-headline uppercase">SANJEEV KUMAR</div>
+<div class="hidden md:flex gap-12 items-center">
+<a class="font-headline font-bold tracking-tighter uppercase text-[14px] text-[#e5e2e1] hover:text-[#ff0000] transition-colors" href="#">WORK</a>
+<a class="font-headline font-bold tracking-tighter uppercase text-[14px] text-[#e5e2e1] hover:text-[#ff0000] transition-colors" href="#">ABOUT</a>
+<a class="font-headline font-bold tracking-tighter uppercase text-[14px] text-[#ff0000] border-b-2 border-[#ff0000] pb-1" href="#">CONTACT</a>
+</div>
+<button class="bg-[#ff0000] text-white px-6 py-2 font-headline font-bold tracking-tighter uppercase hover:scale-105 active:scale-95 transition-all duration-300">HIRE ME</button>
+</nav>
+<main class="pt-32 pb-24 px-8 min-h-screen">
+<div class="max-w-[1400px] mx-auto">
+<!-- Header Section -->
+<div class="mb-24 flex flex-col items-start">
+<div class="flex items-center gap-4 mb-4">
+<span class="w-3 h-3 bg-kinetic-red"></span>
+<span class="font-label text-xs font-bold tracking-[0.3em] uppercase opacity-60">AVAILABLE FOR NEW PROJECTS</span>
+</div>
+<h1 class="font-headline text-6xl md:text-9xl font-black tracking-[-0.04em] uppercase leading-[0.9] text-white">
+                    INITIATE<br/>
+<span class="kinetic-red">CONTACT</span>
+</h1>
+</div>
+<!-- Content Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24">
+<!-- Left Column: Identity & Details -->
+<div class="lg:col-span-4 flex flex-col gap-16">
+<div class="space-y-8">
+<div>
+<p class="font-label text-[10px] font-bold tracking-[0.2em] text-[#ff0000] uppercase mb-4">EMAIL INQUIRIES</p>
+<a class="font-headline text-2xl md:text-3xl font-bold tracking-tight text-white hover:text-kinetic-red transition-colors duration-300" href="mailto:SJEEV06CH@GMAIL.COM">SJEEV06CH@GMAIL.COM</a>
+</div>
+<div>
+<p class="font-label text-[10px] font-bold tracking-[0.2em] text-[#ff0000] uppercase mb-4">PHONE</p>
+<p class="font-headline text-2xl md:text-3xl font-bold tracking-tight text-white">+91 8219436514</p>
+</div>
+<div>
+<p class="font-label text-[10px] font-bold tracking-[0.2em] text-[#ff0000] uppercase mb-4">STUDIO LOCATION</p>
+<p class="font-headline text-2xl md:text-3xl font-bold tracking-tight text-white">CHANDIGARH,<br/>INDIA</p>
+</div>
+</div>
+<div class="pt-8 border-t border-outline-variant/20">
+<p class="font-label text-[10px] font-bold tracking-[0.2em] text-[#ff0000] uppercase mb-8">DIGITAL FOOTPRINT</p>
+<ul class="space-y-4">
+<li><a class="group flex items-center gap-4 font-headline text-xl font-bold text-on-surface hover:text-white transition-all" href="#">
+<span class="w-0 group-hover:w-8 h-[2px] bg-kinetic-red transition-all duration-300"></span> INSTAGRAM
+                            </a></li>
+<li><a class="group flex items-center gap-4 font-headline text-xl font-bold text-on-surface hover:text-white transition-all" href="#">
+<span class="w-0 group-hover:w-8 h-[2px] bg-kinetic-red transition-all duration-300"></span> DRIBBBLE
+                            </a></li>
+<li><a class="group flex items-center gap-4 font-headline text-xl font-bold text-on-surface hover:text-white transition-all" href="#">
+<span class="w-0 group-hover:w-8 h-[2px] bg-kinetic-red transition-all duration-300"></span> LINKEDIN
+                            </a></li>
+</ul>
+</div>
+</div>
+<!-- Right Column: High-End Form -->
+<div class="lg:col-span-8 bg-surface-container-low p-8 md:p-12 relative">
+<div class="absolute top-0 right-0 w-32 h-32 bg-surface-container border-b border-l border-outline-variant/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-kinetic-red" data-icon="send">send</span>
+</div>
+<form class="flex flex-col gap-12 mt-12">
+<div class="relative group">
+<label class="block font-label text-[10px] font-bold tracking-[0.2em] uppercase text-on-surface-variant mb-4 transition-colors group-focus-within:text-kinetic-red">01. FULL NAME</label>
+<input class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:border-kinetic-red focus:ring-0 text-white font-headline text-2xl p-0 pb-4 placeholder:opacity-20 transition-all outline-none" placeholder="Your name" type="text"/>
+</div>
+<div class="relative group">
+<label class="block font-label text-[10px] font-bold tracking-[0.2em] uppercase text-on-surface-variant mb-4 transition-colors group-focus-within:text-kinetic-red">02. EMAIL ADDRESS</label>
+<input class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:border-kinetic-red focus:ring-0 text-white font-headline text-2xl p-0 pb-4 placeholder:opacity-20 transition-all outline-none" placeholder="email@domain.com" type="email"/>
+</div>
+<div class="relative group">
+<label class="block font-label text-[10px] font-bold tracking-[0.2em] uppercase text-on-surface-variant mb-4 transition-colors group-focus-within:text-kinetic-red">03. PROJECT DESCRIPTION</label>
+<textarea class="w-full bg-transparent border-0 border-b-2 border-outline-variant focus:border-kinetic-red focus:ring-0 text-white font-headline text-2xl p-0 pb-4 placeholder:opacity-20 transition-all outline-none resize-none" placeholder="Briefly describe your vision" rows="4"></textarea>
+</div>
+<div class="pt-4">
+<button class="group flex items-center gap-6 bg-kinetic-red text-white px-10 py-6 font-headline font-black text-xl uppercase tracking-tighter hover:bg-white hover:text-black transition-all duration-300" type="submit">
+                                TRANSMIT MESSAGE
+                                <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+<!-- Map/Visual Break Section -->
+<section class="mt-32 w-full h-[500px] overflow-hidden grayscale contrast-125 brightness-75 border-ghost relative">
+<img alt="Minimalist architectural details in Chandigarh" class="w-full h-full object-cover" data-alt="Aerial topographic view of a brutalist city grid in high-contrast black and white with red graphic overlays" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlX-82zKZf0Rqv14DhVf9GwaBAIAUxOFTDHu9NpyrT83QG1ogSg3MJGUCjwEvI0xv4i4UhKxVzyVGwe6lYMb6YS06rEN760n8UwargJ7w-MjCkkfegon7S7m5Sqyx_6o3blffR2FFm9pbah57pNCRoqXYJOYYGU5hMAxDn89StkUfVPHuEBLu_3Z1pdNpomKOPg1qKRHbNs32Abx8omYuu5ifJJKsZ22y0UcsSH8wvElvxk_TWALASsfTtX3G1EXoGTaMbucN4bc4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent"></div>
+<div class="absolute bottom-12 left-12">
+<div class="bg-kinetic-red text-white px-6 py-4">
+<p class="font-headline font-black text-2xl tracking-tighter uppercase">CHANDIGARH SECTOR 1</p>
+<p class="font-label text-[10px] font-bold tracking-[0.2em]">30.7333° N, 76.7794° E</p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full px-8 py-12 flex flex-col md:flex-row justify-between items-center gap-6 bg-[#0e0e0e] border-t border-[#1c1b1b]">
+<div class="text-lg font-black text-white font-headline uppercase">SANJEEV KUMAR</div>
+<div class="flex gap-8">
+<a class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold tracking-[0.2em] uppercase text-[#3a3939] hover:text-[#ff0000] transition-colors duration-300" href="#">DRIBBBLE</a>
+<a class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold tracking-[0.2em] uppercase text-[#3a3939] hover:text-[#ff0000] transition-colors duration-300" href="#">BEHANCE</a>
+<a class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold tracking-[0.2em] uppercase text-[#3a3939] hover:text-[#ff0000] transition-colors duration-300" href="#">READCV</a>
+</div>
+<div class="font-['Plus_Jakarta_Sans'] text-[10px] font-bold tracking-[0.2em] uppercase text-[#3a3939]">
+            © 2024 SANJEEV KUMAR. ALL RIGHTS RESERVED.
+        </div>
+</footer>
+</body></html>
